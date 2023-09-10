@@ -1,0 +1,16 @@
+.mat-toolbar {
+    background: #1d2033;
+    padding: 0em 1em 0em 1em;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.user-text {
+    margin-right: 1em;
+}
+
+.app-name{
+    cursor: pointer;
+}

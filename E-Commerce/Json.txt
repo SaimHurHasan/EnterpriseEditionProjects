@@ -1,0 +1,62 @@
+add product
+
+  {
+
+      "pid": 14,
+
+      "brand": "Acer",
+
+      "description": " Acer Aspire 5 15.6 FHD IPS Slim Laptop, AMD Ryzen 3 3350U 4-Core Processor(Up to 3.5GHz) 20GB RAM, 512GB NVMe SSD, Backlit KB, Fingerprint Reader, Amazon Alexa, Win 11 S, 3in1 Accessories",
+
+      "imageUrl":"https://m.media-amazon.com/images/I/71DhkHs4pqL._AC_SX679_.jpg",
+
+      "price":44506,
+
+      "pname":"Acer Aspire",
+
+      "serviceability":[{
+
+          "sid":21,
+
+          "pincode":243412,
+
+          "expectedDelivery":"15"
+
+      }]
+
+    }
+
+
+check availability
+
+localhost:8080/api/products/product?pid=12&pincode=243411
+
+
+
+login
+
+localhost:8080/api/auth/login
+
+
+{
+    "uid":1,
+    "username":"Saimhasan",
+    "password":"Saimhasan",
+    "uname":"Saim Hasan"
+
+}
+
+
+
+
+signup
+
+localhost:8080/api/auth/signup
+
+{
+    "uid":2,
+    "username":"Ruhi",
+    "password":"Ruhi",
+    "uname":"Ruhi Sharma"
+
+}
