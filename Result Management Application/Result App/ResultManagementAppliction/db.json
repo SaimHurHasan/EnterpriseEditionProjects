@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Ayushi",
+      "dateOfBirth": "2000-08-03",
+      "score": 85
+    },
+    {
+      "id": 2,
+      "name": "Aryan",
+      "dateOfBirth": "2022-06-13",
+      "score": 76
+    },
+    {
+      "id": 3,
+      "name": "Saim",
+      "dateOfBirth": "1998-10-10",
+      "score": 90
+    },
+    {
+      "id": 5,
+      "name": "Abc",
+      "dateOfBirth": "2022-10-05",
+      "score": 65
+    }
+  ],
+  "signupStudents": [
+    {
+      "fullName": "Kritika",
+      "rollNo": "22",
+      "email": "kritika22@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "fullName": "abc",
+      "rollNo": "2",
+      "email": "abc@gmail.com",
+      "password": "saim",
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Find Result</h1>
+                </div>               
+                    <form  [formGroup]="loginStudForm" (ngSubmit)="studLogin()">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" style="color: #fff;" class="form-label">Roll number</label>
+                          <input formControlName="id" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"><br>
+                          <span class="text-danger" *ngIf="loginStudForm.controls['id'].dirty && loginStudForm.hasError('required','id')">*Roll number is required</span>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" style="color: #fff;" class="form-label">Name</label>
+                          <input formControlName="name" type="text" class="form-control" id="exampleInputPassword1"><br>
+                          <span class="text-danger" *ngIf="loginStudForm.controls['name'].dirty && loginStudForm.hasError('required','name')">*Name is required</span>
+                        </div>
+                        <!-- <button [routerLink]="['/scorecard/'+this.loginStudForm.value.id]" type="submit" class="btn btn-primary">Search</button>  -->
+                        <button type="submit" class="btn btn-primary">Search</button>
+                        <button routerLink="/front" type="submit" class="btn btn-secondary mx-3">Back</button>
+                      </form>  
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
